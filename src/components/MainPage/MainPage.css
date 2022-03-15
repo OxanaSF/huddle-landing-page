@@ -1,34 +1,36 @@
 .main-page {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    background-image: url("./bg-desktop.svg"); 
-    background-color: hsl(257, 40%, 49%);
-    background-repeat: no-repeat;
+  width: 1440px;
+  height: 660px;
+  margin: 50px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
 }
 
 .container {
-    display: flex;
-    height: 95vh;
-    margin-top: 73px;
+  display: flex;
+  height: 95vh;
+  margin-top: 73px;
 }
 
 .left-div {
-margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .right-div {
-    padding-top: 30px;
-    margin-left: 20px;
-    color: #ffff;
+  padding-top: 30px;
+  margin-left: 20px;
+  color: #ffff;
 }
 
 .right-div h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 500;
 }
 
 .right-div p {
-    color: rgb(252, 241, 241);
+  color: rgb(252, 241, 241);
 }
-
