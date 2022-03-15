@@ -10,14 +10,8 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.btn-active {
-  width: 170px;
-  border-radius: 30px;
+.btn:hover {
+  cursor: pointer;
   color: rgb(248, 225, 225);
   background-color: hsl(300, 69%, 71%);
-  padding: 14px 25px;
-  font-size: 15px;
-  outline: none;
-  border: none;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

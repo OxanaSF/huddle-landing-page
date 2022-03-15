@@ -1,7 +1,15 @@
+import { useState } from "react";
 import "./Button.css";
 
+
 const Button = () => {
-  return <button className="btn">Register</button>;
+  const [] = useState('');
+
+  return (
+    <button className="btn" onTouchMove>
+      Register
+    </button>
+  )
 };
 
 export default Button;

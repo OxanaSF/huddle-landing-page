@@ -10,6 +10,12 @@
   margin: 5px;
 }
 
+.icon:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
+
 .insta-icon {
   padding: 6px 7px;
 }
